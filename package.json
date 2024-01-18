@@ -4,7 +4,7 @@
   "description": "Ubuntu-logging-server",
   "main": "index.js",
   "scripts": {
-    "start": "npx tsc && cd src/dist && nodemon ./app.js"
+    "start": "npx tsc && nodemon src/dist/app.js"
   },
   "keywords": [],
   "author": "",
